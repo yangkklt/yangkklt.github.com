@@ -1,4 +1,18 @@
 <!DOCTYPE html>
 <html>
-  <body>Hello, Github!</body>
+    <head></head>
+    <body>
+        <h1>{{ site.name }}</h1>
+
+        {% for post in site.posts %}
+
+            <h3>
+                <a href="{{ site.url }}{{ post.url}} ">
+                    {{ post.title }}
+                </a>
+            </h3>
+            {{ post.content }}
+
+        {% endfor %}
+    </boby>
 </html>
