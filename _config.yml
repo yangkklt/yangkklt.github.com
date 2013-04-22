@@ -1,9 +1,6 @@
-auto:	          true
-
 markdown:         rdiscount
 pygments:         true
-paginate:         6
 permalink:        /:title
-
+permalink:		  /:year/:month/:day/:title.html
 name: yangkklt
 url: http://yangkklt.github.com/
