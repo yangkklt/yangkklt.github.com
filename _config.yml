@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # This is the default format. 
 # For more see: https://github.com/mojombo/jekyll/wiki/Permalinks
 permalink: /:categories/:year/:month/:day/:title 
@@ -126,3 +127,21 @@ JB :
   #   ./_includes/custom/[HELPER]
   # where [HELPER] is the name of the helper you are overriding.
   
+=======
+---
+destination : /Users/mreid/Sites/mark.reid.name
+auto        : false
+lsi         : false
+pygments    : true
+permalink   : none
+markdown    : maruku
+
+maruku:
+    use_divs: true
+    use_tex: true
+    png_engine : blahtex
+    png_dir    : images/latex/
+    png_url    : /images/latex/
+
+    
+>>>>>>> df002e69f896c3295ef4a6a0af5125763267aa81
